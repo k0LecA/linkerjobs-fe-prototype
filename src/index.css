@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700;750&display=swap');
+
+:root {
+  --paper: #fff;
+  --ink: #171c18;
+  --ink-soft: #3d4740;
+  --muted: #707a73;
+  --line: #e2e7e3;
+  --line-strong: #c8cfca;
+  --forest: #155036;
+  --leaf: #70947c;
+  --display: 'DM Sans', 'Avenir Next', Avenir, sans-serif;
+  font-family: 'DM Sans', 'Avenir Next', Avenir, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* { box-sizing: border-box; }
+
+html { min-width: 320px; scroll-behavior: smooth; }
+
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+
+button, input { font: inherit; }
+
+::selection { color: white; background: var(--forest); }

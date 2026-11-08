@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "gpt-taste": {
+      "source": "tasteskill/tasteskill",
+      "sourceType": "github",
+      "skillPath": "gpt-taste/SKILL.md",
+      "computedHash": "1c930f6dbea96820809b7e28bbea832ab7264385e3dd98d1852623fe72438522"
+    }
+  }
+}
